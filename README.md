@@ -1,2 +1,2 @@
-# SuporteDpge
-Página criada para Criação de FAQ da equipe de suporte.
+### SuporteDpge
+FAQ da Equipe de Suporte de TI.
