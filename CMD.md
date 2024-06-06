@@ -1,4 +1,4 @@
-# Comandos uteis no CMD do Windows
+# Comandos úteis no CMD do Windows
 
 ### Este comando exibe a capacidade de cada módulo de memória RAM instalado.
 wmic memorychip get capacity
