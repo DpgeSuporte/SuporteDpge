@@ -17,7 +17,7 @@ sudo apt-get remove --purge libreoffice*
 sudo apt-get clean
 sudo apt-get autoremove
 
-##3 REMOÇÃO DO CHROME NO LINUX UBUNTU
+### REMOÇÃO DO CHROME NO LINUX UBUNTU
 
 sudo apt-get remove google-chrome.*
 sudo apt-get --purge remove google-chrome.*
