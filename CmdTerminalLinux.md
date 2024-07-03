@@ -1,3 +1,36 @@
+### INSTALAÇÃO DO ANYDESK
+
+sudo apt update
+
+sudo apt -y upgrade
+
+curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/anydesk.gpg
+
+echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+
+sudo apt update
+
+sudo apt install anydesk
+
+
+### INSTALAÇÃO DO GOOGLE CHROME
+
+sudo apt update
+sudo apt upgrade
+
+wget --version
+sudo apt install wget
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+OBSERVAÇÃO: Corrija os erros de instalação do Chrome. Se qualquer erro for exibido durante a instalação, digite sudo apt-get install -f e pressione a tecla ↵ Enter para repará-lo.
+
+
+### REMOVENDO O Google Chrome
+
+sudo apt-get remove --purge google-chrome
+
 ### INSTAÇÃO DO LibreOffice
 
 sudo add-apt-repository -y ppa:libreoffice/ppa
