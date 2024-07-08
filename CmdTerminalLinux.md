@@ -65,6 +65,8 @@ chmod 777 -R nomedapasta/
 gedit /etc/fstab
 #### Observação: Alterar o USERNAME e SENHA
 
+//172.16.64.23/cascavel /home/dpge/cascavel cifs user,rw,uid=1000,gid=1000,nounix,iocharset=utf8,file_mode=0777,dir_mode=0777,username=dpge,password=dpgece,domain=dpge 0 0
+
 # INGRESSAR MAQUINA LINUX NO AD
 
 #### 1 – VERIFICAR SE ESTA VISUALIZANDO O NOSSO DOMÍNIO (defensoria.ce.def.br)
